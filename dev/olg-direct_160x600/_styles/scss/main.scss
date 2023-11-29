@@ -1,0 +1,39 @@
+@import '../../../_common/styles/common.scss';
+
+#banner{
+ width: 160px;
+ height: 600px;
+}
+
+
+
+#legalBtn{	
+	@include pos(110, 0);	
+	width: 80px;
+	opacity: 0;
+}
+
+
+
+
+#olg{
+	width: 87px;
+	height: 49px;
+	@include pos(0, 555);
+	// opacity: .5 !important;
+	
+}
+
+
+/* Utility Classes */
+
+
+// #GL_logo{
+// 	svg{
+// 		position: absolute;
+// 		width: 83px;
+// 		top: 327px
+// 	}
+// }
+
+// #L-letter, #L-circ, #G-circ, #G-letter {transform: translateX(-1px);}
